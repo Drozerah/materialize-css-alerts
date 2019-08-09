@@ -1,0 +1,130 @@
+/*  MATERIALIZE ALERTS */
+.alert, .alert-success, .alert-danger, .alert-warning, .alert-info {
+  border: 1px solid #bdbdbd;
+  color: #212121;
+  background-color: #eeeeee;
+  padding: 15px;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.alert-success {
+  border: 1px solid #9ccc65;
+  color: #33691e;
+  background-color: #c5e1a5;
+  padding: 15px;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.alert-danger {
+  border: 1px solid #EF5350;
+  color: #B71C1C;
+  background-color: #EF9A9A;
+  padding: 15px;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.alert-warning {
+  border: 1px solid #fdd835;
+  color: #f57f17;
+  background-color: #fff59d;
+  padding: 15px;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.alert-info {
+  border: 1px solid #42A5F5;
+  color: #0D47A1;
+  background-color: #90CAF9;
+  padding: 15px;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+/* DROZERAH */
+.drozerah {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+}
+
+.drozerah svg {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+.drozerah path {
+  fill: #6a1b9a;
+  fill-rule: evenodd;
+}
+
+.drozerah span {
+  display: inline-block;
+  color: #6a1b9a;
+}
+
+.drozerah:hover path {
+  fill: purple;
+}
+
+.drozerah:hover span {
+  color: purple;
+}
+
+/* APP */
+html, body {
+  margin: 0px;
+  height: 100vh;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 30%;
+  padding: 20px;
+}
+
+.wrapper header h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.wrapper header p {
+  margin-bottom: 40px;
+}
+
+.wrapper footer {
+  margin-top: 50px;
+  text-align: center;
+}
