@@ -22,7 +22,7 @@ This repository comes with:
 
 __Note 1:__ 
 
-The `.alert` includes a `mixin` that defines default css rules
+The `.alert` includes a `@mixin alert-style` that defines default and generic css rules
 
 The `.alert-success`,`.alert-danger`,`.alert-warning` and `.alert-info` extend the `.alert` class with variables rules based on the materialize `_color-variables.scss` partial
 
