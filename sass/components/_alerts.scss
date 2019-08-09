@@ -47,7 +47,6 @@ $alert-info-border:             color("blue", "lighten-1");
 
 // alert classes
 .alert{
-    @extend .alert;
     @include alert-style(
         $alert-border,
         $alert-backgroud-color, 
